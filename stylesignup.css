@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container1 {
+    width: 50vw;
+    height: 100vh;
+    background: rgb(119, 11, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signup {
+height: 80vh;
+width: 70vh;
+background: white;
+box-shadow: 1px 1px 10px 5px rgb(80, 0, 126);
+border-radius: 5px;
+}
+
+.signup-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+.h1-signup{
+    padding-bottom: 1rem;
+
+    
+}
+.quick{
+font-weight: normal;
+}
+
+.input-area{
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    
+}
+.name{
+    height: 2.8rem;
+    max-width: 22rem;
+    margin-left: 3rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    border-style: groove;
+}
+.email{
+    height: 2.8rem;
+    max-width: 22rem;
+    margin-left: 3rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    border-style: groove;
+}
+.password{
+    height: 2.8rem;
+    max-width: 22rem;
+    margin-left: 3rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    border-style: groove;
+}
+
+ .confirm-password{
+    height: 2.8rem;
+    max-width: 22rem;
+    margin-left: 3rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    border-style: groove;
+}
+.ok{
+    height: 2.8rem;
+    max-width: 22rem;
+    margin-left: 3rem;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+    background: rgb(72, 0, 139);
+    border: none;
+    border-radius: 5px;
+}
+.member{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+/* container second of red color  */
+.container2 {
+    width: 50vw;
+    height: 100vh;
+    background: rgb(212, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.otp-varifiaction{
+    height: 50vh;
+    width: 35vw;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 5px rgb(83, 24, 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.otp-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.information{
+    height: 10vh;
+    width: 30vw;
+    background: rgb(184, 204, 184);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding: 2.5rem;
+margin-left: 2.2rem;
+font-weight: normal;
+color: rgb(102, 101, 101);
+}
+
+.input-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -0.8rem;
+}
+.input-code{
+    height: 2.8rem;
+    width: 30vw;
+    margin-left: 3rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    border-style: groove;
+
+    
+}
+.button-submit{
+    height: 2.8rem;
+    width: 30vw;
+    max-width: 30vw;
+    margin-left: 3rem;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+    background: rgb(72, 0, 139);
+    border: none;
+    border-radius: 5px;
+}
